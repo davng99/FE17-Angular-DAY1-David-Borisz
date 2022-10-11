@@ -1,0 +1,21 @@
+img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-box h1{
+  position: absolute;
+    color: white;
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.612);
+}
